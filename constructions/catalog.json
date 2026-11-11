@@ -1,0 +1,281 @@
+[
+  {
+    "id": "22",
+    "order": 22,
+    "mols": 4,
+    "benchmark_2024": 3,
+    "family": "qdm",
+    "module": "base",
+    "filename": "mols_022_04.txt"
+  },
+  {
+    "id": "45",
+    "order": 45,
+    "mols": 7,
+    "benchmark_2024": 6,
+    "family": "affine_dm",
+    "module": "base",
+    "filename": "mols_045_07.txt"
+  },
+  {
+    "id": "50",
+    "order": 50,
+    "mols": 7,
+    "benchmark_2024": 6,
+    "family": "affine_oa",
+    "module": "base",
+    "filename": "mols_050_07.txt"
+  },
+  {
+    "id": "54",
+    "order": 54,
+    "mols": 9,
+    "benchmark_2024": 8,
+    "family": "affine_oa",
+    "module": "base",
+    "filename": "mols_054_09.txt"
+  },
+  {
+    "id": "72",
+    "order": 72,
+    "mols": 8,
+    "benchmark_2024": 7,
+    "family": "affine_dm",
+    "module": "base",
+    "filename": "mols_072_08.txt"
+  },
+  {
+    "id": "74",
+    "order": 74,
+    "mols": 6,
+    "benchmark_2024": 5,
+    "family": "qdm",
+    "module": "base",
+    "filename": "mols_074_06.txt"
+  },
+  {
+    "id": "78",
+    "order": 78,
+    "mols": 7,
+    "benchmark_2024": 6,
+    "family": "relative_dm",
+    "module": "base",
+    "filename": "mols_078_07.txt"
+  },
+  {
+    "id": "80",
+    "order": 80,
+    "mols": 10,
+    "benchmark_2024": 9,
+    "family": "affine_dm",
+    "module": "base",
+    "filename": "mols_080_10.txt"
+  },
+  {
+    "id": "85",
+    "order": 85,
+    "mols": 7,
+    "benchmark_2024": 6,
+    "family": "cyclic_dm",
+    "module": "base",
+    "filename": "mols_085_07.txt"
+  },
+  {
+    "id": "90",
+    "order": 90,
+    "mols": 8,
+    "benchmark_2024": 6,
+    "family": "qdm",
+    "module": "base",
+    "filename": "mols_090_08.txt"
+  },
+  {
+    "id": "92",
+    "order": 92,
+    "mols": 7,
+    "benchmark_2024": 6,
+    "family": "relative_dm",
+    "module": "base",
+    "filename": "mols_092_07.txt"
+  },
+  {
+    "id": "96",
+    "order": 96,
+    "mols": 11,
+    "benchmark_2024": 10,
+    "family": "affine_dm",
+    "module": "base",
+    "filename": "mols_096_11.txt"
+  },
+  {
+    "id": "98",
+    "order": 98,
+    "mols": 7,
+    "benchmark_2024": 6,
+    "family": "affine_oa",
+    "module": "base",
+    "filename": "mols_098_07.txt"
+  },
+  {
+    "id": "144",
+    "order": 144,
+    "mols": 14,
+    "benchmark_2024": 10,
+    "family": "affine_dm",
+    "module": "finite",
+    "filename": "mols_144_14.txt"
+  },
+  {
+    "id": "162",
+    "order": 162,
+    "mols": 9,
+    "benchmark_2024": 6,
+    "family": "affine_oa",
+    "module": "finite",
+    "filename": "mols_162_09.txt"
+  },
+  {
+    "id": "175",
+    "order": 175,
+    "mols": 7,
+    "benchmark_2024": 6,
+    "family": "pbd",
+    "module": "geometry",
+    "filename": "mols_175_07.txt"
+  },
+  {
+    "id": "183",
+    "order": 183,
+    "mols": 7,
+    "benchmark_2024": 6,
+    "family": "pbd",
+    "module": "geometry",
+    "filename": "mols_183_07.txt"
+  },
+  {
+    "id": "192",
+    "order": 192,
+    "mols": 9,
+    "benchmark_2024": 7,
+    "family": "affine_dm",
+    "module": "finite",
+    "filename": "mols_192_09.txt"
+  },
+  {
+    "id": "207",
+    "order": 207,
+    "mols": 9,
+    "benchmark_2024": 8,
+    "family": "pbd",
+    "module": "geometry",
+    "filename": "mols_207_09.txt"
+  },
+  {
+    "id": "288",
+    "order": 288,
+    "mols": 17,
+    "benchmark_2024": 15,
+    "family": "affine_dm",
+    "module": "finite",
+    "filename": "mols_288_17.txt"
+  },
+  {
+    "id": "324",
+    "order": 324,
+    "mols": 11,
+    "benchmark_2024": 8,
+    "family": "affine_dm",
+    "module": "finite",
+    "filename": "mols_324_11.txt"
+  },
+  {
+    "id": "328",
+    "order": 328,
+    "mols": 9,
+    "benchmark_2024": 7,
+    "family": "pbd",
+    "module": "geometry",
+    "filename": "mols_328_09.txt"
+  },
+  {
+    "id": "335",
+    "order": 335,
+    "mols": 9,
+    "benchmark_2024": 6,
+    "family": "pbd",
+    "module": "geometry",
+    "filename": "mols_335_09.txt"
+  },
+  {
+    "id": "427",
+    "order": 427,
+    "mols": 12,
+    "benchmark_2024": 7,
+    "family": "pbd_exceptional",
+    "module": "geometry",
+    "filename": "mols_427_12.txt"
+  },
+  {
+    "id": "430",
+    "order": 430,
+    "mols": 11,
+    "benchmark_2024": 6,
+    "family": "pbd",
+    "module": "geometry",
+    "filename": "mols_430_11.txt"
+  },
+  {
+    "id": "442",
+    "order": 442,
+    "mols": 11,
+    "benchmark_2024": 7,
+    "family": "pbd",
+    "module": "geometry",
+    "filename": "mols_442_11.txt"
+  },
+  {
+    "id": "456",
+    "order": 456,
+    "mols": 11,
+    "benchmark_2024": 7,
+    "family": "pbd",
+    "module": "geometry",
+    "filename": "mols_456_11.txt"
+  },
+  {
+    "id": "469",
+    "order": 469,
+    "mols": 11,
+    "benchmark_2024": 8,
+    "family": "pbd",
+    "module": "geometry",
+    "filename": "mols_469_11.txt"
+  },
+  {
+    "id": "482",
+    "order": 482,
+    "mols": 7,
+    "benchmark_2024": 6,
+    "family": "pbd_exceptional",
+    "module": "geometry",
+    "filename": "mols_482_07.txt"
+  },
+  {
+    "id": "486",
+    "order": 486,
+    "mols": 9,
+    "benchmark_2024": 8,
+    "family": "affine_oa",
+    "module": "finite",
+    "filename": "mols_486_09.txt"
+  },
+  {
+    "id": "494",
+    "order": 494,
+    "mols": 11,
+    "benchmark_2024": 6,
+    "family": "pbd",
+    "module": "geometry",
+    "filename": "mols_494_11.txt"
+  }
+]
