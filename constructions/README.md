@@ -4,8 +4,8 @@ Use **Python 3.10 or later**. The Python code requires only the standard library
 Run the following commands from this directory:
 
 ```bash
-python construct.py all --output regenerated
-python verify.py regenerated --report verification.json
+python3 construct.py all --output regenerated
+python3 verify.py regenerated --report verification.json
 ```
 
 The first command constructs every catalogued set from its formulas and compact
