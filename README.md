@@ -11,5 +11,5 @@ To verify the MOLS using the (author-created) Python verification script, cd int
 
 The construction code (created by GPT-6 Astra) is in the directory **constructions/**.  See the **README.md** file there.
 
-**srg_484_126_40_30.txt** is the strongly regular graph SRG(484,126,40,30) generated from 4 MOLS of order 22.
+**srg_484_126_40_30.txt** is the adjacency matrix of the strongly regular graph SRG(484,126,40,30) generated from 4 MOLS of order 22.
 
