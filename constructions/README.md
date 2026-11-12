@@ -23,22 +23,11 @@ records the comparison value from Miller, Abel, Valkov, and Fraser,
 *Implementing the MOLS Table for n Up to 500*, Symmetry 16(12), 1678 (2024),
 https://doi.org/10.3390/sym16121678.
 
-| Order | MOLS | Order | MOLS | Order | MOLS | Order | MOLS |
-|---:|---:|---:|---:|---:|---:|---:|---:|
-| 22 | 4 | 85 | 7 | 183 | 7 | 430 | 11 |
-| 45 | 7 | 90 | 8 | 192 | 9 | 442 | 11 |
-| 50 | 7 | 92 | 7 | 207 | 9 | 456 | 11 |
-| 54 | 9 | 96 | 11 | 288 | 17 | 469 | 11 |
-| 72 | 8 | 98 | 7 | 324 | 11 | 482 | 7 |
-| 74 | 6 | 144 | 14 | 328 | 9 | 486 | 9 |
-| 78 | 7 | 162 | 9 | 335 | 9 | 494 | 11 |
-| 80 | 10 | 175 | 7 | 427 | 12 |  |  |
-
 ## Package contents
 
 | Path | Purpose |
 |---|---|
-| `construct.py` | Construction entry point for all 31 orders |
+| `construct.py` | Construction entry point for all 33 orders |
 | `catalog.json` | Construction catalogue and output filenames |
 | `construction/` | Shared affine construction engine and its entry point |
 | `certificates/affine/` | Numerical inputs for six affine constructions |

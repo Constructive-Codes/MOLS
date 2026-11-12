@@ -7,10 +7,10 @@ seeds into that engine's ordinary matrix representation.
 from .common import (array_to_squares, check_array, check_difference_matrix,
                      dm_to_squares, group_from_spec, qdm_to_array)
 from .constructions import (affine_arrays, cyclic90, cyclic_difference,
-                           difference_lifts, relative_difference,
-                           small_quasi)
+                           difference225, difference_lifts, quasi60,
+                           relative_difference, small_quasi)
 
-CASES = (22, 45, 50, 54, 72, 74, 78, 80, 85, 90, 92, 96, 98)
+CASES = (22, 45, 50, 54, 60, 72, 74, 78, 80, 85, 90, 92, 96, 98, 225)
 
 
 def affine_certificate(order):
@@ -30,12 +30,16 @@ def build(order):
         return small_quasi.build(order)
     if order in (50, 54, 98):
         return affine_arrays.build(order)
+    if order == 60:
+        return quasi60.build()
     if order in relative_difference.ORDERS:
         return relative_difference.build(order)
     if order == 85:
         return cyclic_difference.build()
     if order == 90:
         return cyclic90.build()
+    if order == 225:
+        return difference225.build()
     raise ValueError(f'Unsupported direct-construction order: {order}')
 
 

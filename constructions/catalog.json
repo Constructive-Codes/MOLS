@@ -36,6 +36,15 @@
     "filename": "mols_054_09.txt"
   },
   {
+    "id": "60",
+    "order": 60,
+    "mols": 6,
+    "benchmark_2024": 5,
+    "family": "qdm",
+    "module": "base",
+    "filename": "mols_060_06.txt"
+  },
+  {
     "id": "72",
     "order": 72,
     "mols": 8,
@@ -169,6 +178,15 @@
     "family": "pbd",
     "module": "geometry",
     "filename": "mols_207_09.txt"
+  },
+  {
+    "id": "225",
+    "order": 225,
+    "mols": 9,
+    "benchmark_2024": 8,
+    "family": "dm",
+    "module": "base",
+    "filename": "mols_225_09.txt"
   },
   {
     "id": "288",

@@ -76,9 +76,20 @@ def dm_to_squares(matrix, group):
 
 
 def field_product(a, b, q):
-    """Multiplication needed by the small hole arrays, q=7 or q=9."""
+    """Multiplication needed by the small hole arrays, q=7, q=8, or q=9."""
     if q == 7:
         return a * b % 7
+    if q == 8:
+        # F_8=F_2[z]/(z^3+z+1), with binary coefficient labels.
+        value = 0
+        while b:
+            if b & 1:
+                value ^= a
+            b >>= 1
+            a <<= 1
+            if a & 8:
+                a ^= 11
+        return value
     if q == 9:
         # F_9=F_3[z]/(z^2+1), enc(a0+a1*z)=a0+3*a1.
         a0, a1, b0, b1 = a % 3, a // 3, b % 3, b // 3
@@ -87,9 +98,12 @@ def field_product(a, b, q):
 
 
 def hole_array(hole, width):
-    """Field arrays for the one-, seven-, and nine-symbol holes."""
+    """Field arrays for the one-, seven-, eight-, and nine-symbol holes."""
     if hole == 1:
         return [[0] * width]
+    if hole == 8 and width == 8:
+        return [[y ^ field_product(m, x, 8) for m in range(8)]
+                for x in range(8) for y in range(8)]
     if hole not in (7, 9) or width != hole + 1:
         raise ValueError("Unsupported hole size or number of coordinates")
     additive = Group([7] if hole == 7 else [3, 3])
