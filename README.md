@@ -2,7 +2,7 @@
 
 This repository has the data and code for:
 
-C.D. Rosin. (November 2026) “Improved Lower Bounds for Mutually Orthogonal Latin Squares (MOLS) at 33 Orders.”
+C.D. Rosin. (November 2026) “Improved Lower Bounds for Mutually Orthogonal Latin Squares (MOLS) at 33 Orders.” [https://arxiv.org/pdf/2611.16299](https://arxiv.org/pdf/2611.16299)
 
 The directory **mols/** has the new sets of MOLS.  Decompress the files first (e.g. by running `gunzip *` in the directory).  Files are named mols_n_m.txt, giving m MOLS of order n.  The first line of the file has n and m.  The remainder of the file has the Latin squares.  Ignore comment lines which start with \#.
 
